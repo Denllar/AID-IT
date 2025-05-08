@@ -7,8 +7,8 @@ FORM_DATA.addEventListener("submit", formSend);
 async function formSend(event) {
   event.preventDefault();
 
-  const TOKEN = "7434639957:AAF2WJhzx_PUgK0ury-6ng7CLwABFXRV7DU"; // TODO use token telegram bot
-  const CHAT_ID = "-4778742135"; // TODO use chat_Id to telegram
+  const TOKEN = "7982663094:AAFiT5xx6PhgwbvW2B1cCiiO068LfaJqZgc"; // TODO use token telegram bot
+  const CHAT_ID = "-4649835652"; // TODO use chat_Id to telegram
   const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
   let message = `
